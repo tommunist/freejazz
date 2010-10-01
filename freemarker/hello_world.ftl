@@ -1,0 +1,1 @@
+some processed content with ${test}

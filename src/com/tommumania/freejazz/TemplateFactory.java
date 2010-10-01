@@ -12,7 +12,7 @@ public class TemplateFactory {
     public TemplateFactory() {
         configuration = new Configuration();
         try {
-            configuration.setDirectoryForTemplateLoading(new File("src/resources"));
+            configuration.setDirectoryForTemplateLoading(new File("freemarker"));
         } catch (IOException e) {
             throw new RuntimeException("Could not set template directory: " + e.getMessage());
         }
